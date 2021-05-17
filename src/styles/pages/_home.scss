@@ -6,7 +6,7 @@
   background: white;
 }
 .main_navbar {
-  padding: 0.5rem 0;
+  padding: 0.5rem 1rem;
   background-color: rgba(0, 0, 0, 0) !important;
   a {
     text-transform: capitalize;
@@ -32,7 +32,7 @@
   letter-spacing: 0;
   font-size: 12px;
   line-height: 16px;
-  margin-left: 7%;
+  margin-left: 0;
   white-space: nowrap;
   min-width: 20px;
   border: 1px solid rgba(0, 0, 0, 0);
@@ -43,8 +43,17 @@
   }
   .main_navbar {
     background-color: rgba(0, 0, 0, 0) !important;
+    padding: 0.5rem 0;
+
+    li {
+      text-align: center;
+    }
     a {
       color: #f6f8f9 !important;
+      text-align: center;
     }
+  }
+  .login_btn {
+    margin-left: 7%;
   }
 }
