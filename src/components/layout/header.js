@@ -9,7 +9,7 @@ const Header = () => {
   const toggle = () => setIsOpen(!isOpen);
   return (
     <div className="header-main">
-      <nav className="navbar navbar-expand-lg sticky-top main_navbar py-lg-0 py-xl-0 p-0">
+      <nav className="navbar navbar-expand-xl sticky-top main_navbar py-lg-0">
         <div className="container">
           <a class="navbar-brand" href="#">
             <Image

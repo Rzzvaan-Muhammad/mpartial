@@ -22,9 +22,49 @@ video {
   min-width: 100%;
   min-height: 100%;
 }
+.slider_down_btn {
+  position: relative;
+  width: 28px;
+  height: 42px;
+  border: 2px solid #131111;
+  border-radius: 50px;
+  z-index: 99999;
+  cursor: pointer;
+  margin: 0 auto;
+  top: 20vh;
+}
+.slider_down_btn::after {
+  content: " ";
+  width: 2px;
+  height: 11px;
+  background-color: #000;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 8%;
+  border-radius: 50%;
+  -webkit-transition: top 0.4s;
+  -o-transition: 0.4s top;
+  transition: top 0.4s;
+}
+.slider_down:hover {
+  .slider_down_btn {
+    border: 2px solid green;
+  }
+  .slider_down_btn::after {
+    background-color: green;
+    top: 55%;
+  }
+}
 @include media-breakpoint-up(lg) {
   .BackgroundVideo-main {
     position: absolute;
     top: 0;
+  }
+  .slider_down_btn {
+    top: 60vh;
+  }
+  #myVideo {
+    height: 100vh;
   }
 }

@@ -17,6 +17,9 @@ const Hero = () => {
             muted
           />
         </div>
+        <div className="slider_down">
+          <div className="slider_down_btn"></div>
+        </div>
       </div>
     </div>
   );
