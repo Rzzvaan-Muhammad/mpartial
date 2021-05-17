@@ -46,8 +46,8 @@ $grid-breakpoints: (
 
 //Components
 // @import "./components/_footer";
-// @import "./components/_header";
-// @import "./components/_ourServices";
+@import "./components/_header";
+@import "./components/_home";
 // @import "./components/categories.scss";
 // @import "./components/_categories-list";
 // @import "./components/_category-directory";

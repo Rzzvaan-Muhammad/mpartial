@@ -4,7 +4,7 @@ import Footer from "./footer";
 
 export default ({ children }) => {
   return (
-    <div style={{ backgroundColor: "black" }}>
+    <div>
       <Header />
       <main>{children}</main>
       <Footer />
