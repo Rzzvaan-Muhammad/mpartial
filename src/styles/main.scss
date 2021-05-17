@@ -22,22 +22,30 @@ body {
 //     padding-right: 40px;
 //   }
 // }
-
 $grid-breakpoints: (
-  xxxs: 0,
-  xxs: 321px,
-  xs: 568px,
-  sm: 667px,
-  md: 769px,
-  lg: 992px,
-  xl: 1201px,
-  xxl: 1441px,
-  xxxl: 1600px,
-  xxxxl: 1920px,
-  xxxxxl: 2200px,
-  xxxxxxl: 2400px,
-  xxxxxxxl: 2560px,
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1200px,
+  xxl: 1400px,
 );
+
+// $grid-breakpoints: (
+//   xxxs: 0,
+//   xxs: 321px,
+//   xs: 568px,
+//   sm: 667px,
+//   md: 769px,
+//   lg: 992px,
+//   xl: 1201px,
+//   xxl: 1441px,
+//   xxxl: 1600px,
+//   xxxxl: 1920px,
+//   xxxxxl: 2200px,
+//   xxxxxxl: 2400px,
+//   xxxxxxxl: 2560px,
+// );
 
 @import "./helpers/variables";
 @import "./helpers/theme";

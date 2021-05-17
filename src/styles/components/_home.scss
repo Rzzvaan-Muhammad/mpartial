@@ -14,6 +14,7 @@
 video {
   object-fit: cover;
   width: 100vw;
+  height: 37.5vh;
 }
 #myVideo {
   position: fixed;
@@ -56,15 +57,29 @@ video {
     top: 55%;
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .slider_down_btn {
+    visibility: hidden;
+  }
+}
 @include media-breakpoint-up(lg) {
   .BackgroundVideo-main {
     position: absolute;
     top: 0;
   }
+  video {
+    height: 100vh;
+  }
   .slider_down_btn {
-    top: 60vh;
+    top: 65vh;
   }
   #myVideo {
     height: 100vh;
+  }
+}
+@include media-breakpoint-up(xl) {
+  .slider_down_btn {
+    top: 62.5vh;
   }
 }

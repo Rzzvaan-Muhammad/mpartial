@@ -1,6 +1,6 @@
 import React from "react";
 // import { Link } from "gatsby";
-// import sourse from "../../images/homepage.mp4";
+import sourse from "../../images/homepage.mp4";
 
 const Hero = () => {
   return (
@@ -9,8 +9,9 @@ const Hero = () => {
         <div className="BackgroundVideo">
           <video
             className="BackgroundVideo-main"
-            src="https://mpartial-data.s3.us-east-2.amazonaws.com/homepage.mp4"
-            preload="auto"
+            // src="https://mpartial-data.s3.us-east-2.amazonaws.com/homepage.mp4"
+            src={sourse}
+            preload="true"
             autoPlay
             loop
             playsInLine
