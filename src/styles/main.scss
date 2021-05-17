@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$base-color: #3d619b;
+
+html,
+body {
+  font-size: 20px;
+  min-width: 360px !important;
+  font-family: Poppins !important;
+}
+.static-container {
+  h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #3d619b;
+    border-bottom: 8px solid #3d619b;
+    padding-right: 40px;
+  }
+}
+
+$grid-breakpoints: (
+  xxxs: 0,
+  xxs: 321px,
+  xs: 568px,
+  sm: 667px,
+  md: 769px,
+  lg: 992px,
+  xl: 1201px,
+  xxl: 1441px,
+  xxxl: 1600px,
+  xxxxl: 1920px,
+  xxxxxl: 2200px,
+  xxxxxxl: 2400px,
+  xxxxxxxl: 2560px,
+);
+
+@import "./helpers/variables";
+@import "./helpers/theme";
+@import "./helpers/font";
+@import "./helpers/spacing";
+
+//Components
+@import "./components/_footer";
+@import "./components/_header";
+@import "./components/_ourServices";
+@import "./components/categories.scss";
+@import "./components/_categories-list";
+@import "./components/_category-directory";
+
+//Pages
+@import "./pages/home";
+@import "./pages/leads";
+@import "./pages/services";
+@import "./pages/contact-us";
+@import "./pages/about-us";
+.gbi-214042037-h69PMFjuAckReaKaca61Ti {
+  background-position: right !important;
+}

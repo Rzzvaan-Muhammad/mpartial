@@ -1,0 +1,7 @@
+.myBackground {
+  background-image: url(../images/hero.png);
+}
+
+.hero-bg-img::after {
+  opacity: 0 !important;
+}
