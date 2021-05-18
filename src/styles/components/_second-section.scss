@@ -1,25 +1,27 @@
 .second-section-main {
-  margin-top: 100vh;
+  margin-top: 50vh;
 }
+
 .section_title_description {
   display: block;
-  text-align: left;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 34px;
+
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 20px;
   letter-spacing: -0.19px;
   color: #000;
   opacity: 1;
   padding-top: 19%;
 }
 .section_title_text {
-  text-align: left;
-  padding-top: 21%;
-  padding-left: 17%;
-  background-position: 0 16px;
+  text-align: center;
+  padding: 25% 7%;
+  background-position: 50%;
   font-weight: 600;
-  font-size: 45px;
-  line-height: 58px;
+  font-size: 28px;
+  line-height: 32px;
+  margin: 5% 0;
   letter-spacing: 0;
   color: #000;
   opacity: 1;
@@ -27,4 +29,26 @@
   background-repeat: no-repeat;
   //   b-circle
   background-image: url("https://i.postimg.cc/76zZ3psX/b-circle.png");
+}
+@include media-breakpoint-up(lg) {
+  .second-section-main {
+    margin-top: 100vh;
+  }
+  .section_title_text {
+    text-align: left;
+    padding-top: 21%;
+    padding-left: 17%;
+    background-position: 0 16px;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0;
+  }
+  .section_title_description {
+    display: block;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+  }
 }
