@@ -1,0 +1,132 @@
+.compare_images_section {
+  width: 100%;
+  height: auto;
+  padding: 50px 50px 0;
+  //   height: 80% !important;
+}
+.compare_images_section_inner {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 35vh;
+  overflow: hidden;
+  display: block;
+}
+.compare_image_1 {
+  // clip: rect(auto, auto, auto, 825.78px);
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+.compare_image_2 {
+  //   clip: rect(auto, 825.78px, auto, auto);
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+.handle_stick {
+  align-items: center;
+  cursor: ew-resize;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  //   cursor: move;
+  position: absolute;
+  top: 0px;
+  width: 40px;
+}
+.controler-img {
+  cursor: ew-resize;
+}
+.handle_stick_inner {
+  background: rgb(58, 194, 128);
+  box-shadow: rgba($color: #000000, $alpha: 0.2) 0px 3px 1px -2px,
+    rgba($color: #000000, $alpha: 0.14) 0px 2px 2px 0px,
+    rgba($color: #000000, $alpha: 0.12) 0px 1px 5px 0px;
+
+  flex: 0 1 auto;
+  height: 100%;
+  width: 2px;
+}
+.handle_stick_controler {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  flex: 1 0 auto;
+  height: auto;
+  justify-content: center;
+  width: auto;
+}
+.controler-div {
+  background: rgb(58, 194, 128);
+  box-shadow: rgba($color: #000000, $alpha: 0.2) 0px 3px 1px -2px,
+    rgba($color: #000000, $alpha: 0.14) 0px 2px 2px 0px,
+    rgba($color: #000000, $alpha: 0.12) 0px 1px 5px 0px;
+  flex: 0 1 auto;
+  height: 100%;
+  width: 2px;
+}
+.dir_upper_div {
+  pointer-events: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  z-index: -1;
+  visibility: hidden;
+  max-width: 100%;
+}
+.resize-sensor-expand {
+  pointer-events: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  z-index: -1;
+  visibility: hidden;
+  max-width: 100%;
+}
+
+.resize-sensor-expend-inner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transition: all 0s ease 0s;
+  width: 1020px;
+  height: 641px;
+}
+.resize-sensor-shrink {
+  pointer-events: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  z-index: -1;
+  visibility: hidden;
+  max-width: 100%;
+}
+.resize-sensor-shrink-inner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transition: all 0s ease 0s;
+  width: 200%;
+  height: 200%;
+}
+@include media-breakpoint-between(sm, md) {
+  .compare_images_section_inner {
+    height: 45vh;
+  }
+}
+@include media-breakpoint-between(md, lg) {
+  .compare_images_section_inner {
+    height: 60vh;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .compare_images_section_inner {
+    height: 100vh;
+  }
+}
