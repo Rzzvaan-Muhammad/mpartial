@@ -12,6 +12,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+  clear: both;
 }
 // .static-container {
 //   h1 {
@@ -53,10 +54,10 @@ $grid-breakpoints: (
 @import "./helpers/spacing";
 
 //Components
-// @import "./components/_footer";
+@import "./components/_footer";
 @import "./components/_header";
 @import "./components/_home";
-// @import "./components/categories.scss";
+@import "./components/_second-section.scss";
 // @import "./components/_categories-list";
 // @import "./components/_category-directory";
 

@@ -15,7 +15,7 @@
     text-align: center;
     font-weight: 400;
     font-size: 12px;
-    line-height: 32px;
+    line-height: 26px;
     letter-spacing: 0;
     color: black !important;
     opacity: 1;
@@ -50,6 +50,7 @@
     a {
       color: #f6f8f9 !important;
       text-align: center;
+      line-height: 14px;
     }
   }
   .login_btn {
@@ -59,5 +60,10 @@
 @include media-breakpoint-up(xl) {
   .login_btn {
     margin-left: 0;
+  }
+  .main_navbar {
+    a {
+      line-height: 32px;
+    }
   }
 }

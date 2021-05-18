@@ -9,7 +9,7 @@ const Header = () => {
   const toggle = () => setIsOpen(!isOpen);
   return (
     <div className="header-main">
-      <nav className="navbar navbar-expand-xl sticky-top main_navbar py-lg-0">
+      <nav className="navbar navbar-expand-xl fixed-top main_navbar py-xl-0">
         <div className="container">
           <a class="navbar-brand" href="#">
             <Image
@@ -30,8 +30,11 @@ const Header = () => {
             </NavbarToggler>
           </button>
 
-          <Collapse isOpen={isOpen} navbar>
-            <ul class="ml-auto navbar-nav d-flex justify-content-end main_navbar">
+          <Collapse isOpen={isOpen} navbar className="b-0">
+            <ul
+              class="ml-auto navbar-nav d-flex justify-content-end main_navbar"
+              style={{ border: "0" }}
+            >
               <li class="nav-item pr-0 pl-0 mr-0">
                 <a class="nav-link" href="#">
                   Ground-Truth Data
