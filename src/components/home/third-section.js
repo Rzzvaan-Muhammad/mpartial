@@ -44,6 +44,11 @@ const ThirdSection = () => {
           </div>
         </div>
       </div>
+      <div className="try_now_btn">
+        <a className="try_now_btn_link" href="/order">
+          <button className="btn btn_link">Try Today</button>
+        </a>
+      </div>
     </>
   );
 };

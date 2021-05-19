@@ -1,0 +1,68 @@
+.howitworks {
+  background: rgba(10, 81, 105, 0.05) 0 0 no-repeat padding-box;
+}
+.title.center .section_title_text {
+  text-align: center;
+  background-position: 50%;
+  padding: 12%;
+}
+.title .section_title_text {
+  font-family: Museo Sans rounded\500, Helvetica, Arial, Sans-Serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0;
+  color: #000;
+  opacity: 1;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-image: url("https://i.postimg.cc/ryDsq0M5/b-img-section-4.png");
+}
+.data_points {
+  padding-top: 2%;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.data_points .data_point_item .data_number {
+  background-image: url("https://i.postimg.cc/k4Qm5mY3/b-img-2-section-4.png");
+  background-repeat: no-repeat;
+  text-align: left;
+  background-position: bottom;
+  font-weight: 700;
+  font-size: 167px;
+  line-height: 87px;
+  letter-spacing: 0;
+  color: #0a5169;
+  opacity: 1;
+  min-height: 143px;
+}
+.data_points .data_point_item .data_text {
+  text-align: left;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: -0.14px;
+  color: #000;
+  opacity: 1;
+}
+.howitworks .try_now_btn {
+  text-align: center;
+  padding: 60px 0;
+}
+.try_now_btn .btn {
+  height: 40px;
+  width: 159px;
+  background: #3ac280 0 0 no-repeat padding-box;
+  border-color: #3ac280;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: #fff;
+  opacity: 1;
+  min-width: 159px;
+}

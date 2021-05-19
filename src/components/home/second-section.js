@@ -14,7 +14,7 @@ const SecondSection = () => {
                   </h1>
                 </div>
                 <div className="col-md-6 col-sm-12">
-                  <p className="section_title_description">
+                  <p className="section_title_description mt-4">
                     mpartial relieves you of the burden of manually sketching
                     and hammering in all the mundane and repetitive line items.
                     Your productivity will skyrocket as you finally have the
