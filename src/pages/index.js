@@ -1,11 +1,10 @@
 import React from "react";
-
 import { SEO, Layout } from "../components";
-
 import Hero from "../components/home/hero";
 import SecondSection from "../components/home/second-section";
 import ThirdSection from "../components/home/third-section";
 import FourthSection from "../components/home/fourth-section";
+import FifthSection from "../components/home/fifth-section";
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +13,7 @@ const IndexPage = () => (
     <SecondSection />
     <ThirdSection />
     <FourthSection />
+    <FifthSection />
   </Layout>
 );
 

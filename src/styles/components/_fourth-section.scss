@@ -98,3 +98,8 @@
     background-position: bottom;
   }
 }
+@include media-breakpoint-between(sm, md) {
+  .title.center .section_title_text {
+    padding: 12%;
+  }
+}
