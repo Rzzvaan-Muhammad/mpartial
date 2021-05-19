@@ -66,3 +66,35 @@
   opacity: 1;
   min-width: 159px;
 }
+
+@include media-breakpoint-between(xs, md) {
+  .data_points .data_point_item .data_number {
+    font-size: 100px !important;
+    line-height: 120px;
+    background-size: 100%;
+    text-align: center;
+    background-position: 55% 0;
+  }
+  .data_points .data_point_item .data_text {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .title.center .section_title_text,
+  .title.left .section_title_text {
+    padding: 25% 7%;
+    text-align: center;
+    background-position: 50%;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 5% 0;
+  }
+}
+@include media-breakpoint-between(md, lg) {
+  .data_points .data_point_item .data_number {
+    background-position: bottom;
+  }
+  .title.center .section_title_text,
+  .title.left .section_title_text {
+    background-position: bottom;
+  }
+}
