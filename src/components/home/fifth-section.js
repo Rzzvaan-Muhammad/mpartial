@@ -80,13 +80,110 @@ const FifthSection = () => {
                             src="https://i.postimg.cc/9XpdkXy6/correct-5.png"
                           ></img>
                         </div>
+                        <div> Fully access to mpartial engine</div>
                       </div>
-                      <div> Fully access to mpartial engine</div>
                     </div>
                   </div>
+                  <h4 style={{ fontSize: "30px" }}>Free</h4>
+                  <div class="footer">[$750 Minimum]</div>
                 </div>
               </div>
-              <div class="col-lg-5"></div>
+              <div class="col-lg-5">
+                <div className="fee-box mobile-bottom">
+                  <div
+                    class="header"
+                    style={{ background: "rgb(10, 81, 105)" }}
+                  >
+                    <div> Enterprise Plan </div>
+                    <div>
+                      <i class="info_popup">i</i>
+                    </div>
+                  </div>
+                  <div className="body text-center">
+                    <h4>6.38%</h4>
+                    <div className="vsvsvsvs">
+                      <div className="d-flex align-items-center mb-1">
+                        <div
+                          style={{
+                            fontSize: "14px",
+                            fontFamily: "Gilroy",
+                            fontWeight: "600",
+                            color: "#000",
+                            opacity: "1",
+                            textAlign: "left",
+                          }}
+                        >
+                          <img
+                            style={{ width: "14px", height: "14px" }}
+                            className="mr-2"
+                            src="https://i.postimg.cc/9XpdkXy6/correct-5.png"
+                          ></img>
+                        </div>
+                        <div> Discounted fee schedule</div>
+                      </div>
+                      <div className="d-flex align-items-center mb-1">
+                        <div
+                          style={{
+                            fontSize: "14px",
+                            fontFamily: "Gilroy",
+                            fontWeight: "600",
+                            color: "#000",
+                            opacity: "1",
+                            textAlign: "left",
+                          }}
+                        >
+                          <img
+                            style={{ width: "14px", height: "14px" }}
+                            className="mr-2"
+                            src="https://i.postimg.cc/9XpdkXy6/correct-5.png"
+                          ></img>
+                        </div>
+                        <div> Unlimited collaborators </div>
+                      </div>
+                      <div className="d-flex align-items-center mb-1">
+                        <div
+                          style={{
+                            fontSize: "14px",
+                            fontFamily: "Gilroy",
+                            fontWeight: "600",
+                            color: "#000",
+                            opacity: "1",
+                            textAlign: "left",
+                          }}
+                        >
+                          <img
+                            style={{ width: "14px", height: "14px" }}
+                            className="mr-2"
+                            src="https://i.postimg.cc/9XpdkXy6/correct-5.png"
+                          ></img>
+                        </div>
+                        <div> Dedicated account manager</div>
+                      </div>
+                      <div className="d-flex align-items-center mb-1">
+                        <div
+                          style={{
+                            fontSize: "14px",
+                            fontFamily: "Gilroy",
+                            fontWeight: "600",
+                            color: "#000",
+                            opacity: "1",
+                            textAlign: "left",
+                          }}
+                        >
+                          <img
+                            style={{ width: "14px", height: "14px" }}
+                            className="mr-2"
+                            src="https://i.postimg.cc/9XpdkXy6/correct-5.png"
+                          ></img>
+                        </div>
+                        <div>Prioritized turnaround time</div>
+                      </div>
+                    </div>
+                  </div>
+                  <h4 style={{ fontSize: "30px" }}>$495/month</h4>
+                  <div class="footer">[$750 Minimum]</div>
+                </div>
+              </div>
               <div class="col-lg-1"></div>
             </div>
           </div>

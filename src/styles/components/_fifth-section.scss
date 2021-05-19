@@ -171,7 +171,7 @@
   }
 }
 .fee-box .body {
-  text-align: center;
+  //   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -179,4 +179,15 @@
   height: 350px;
   background-color: #f2f6f7;
   padding: 0 60px;
+}
+.text-center {
+  text-align: center !important;
+}
+.fee-box .footer {
+  border-radius: 8px !important;
+  background: rgba(10, 81, 105, 0.05) !important;
+  text-align: center;
+  color: #0a5169;
+  padding: 10px 0;
+  opacity: 0.5;
 }
