@@ -10,10 +10,10 @@ const FifthSection = () => {
           <div className="slider css-8806o7-WaterFall">
             <div
               className="rangeslider rangeslider-horizontal"
-              //   aria-valuemin="0"
-              //   aria-valuemax="1000000"
-              //   aria-valuenow="600000"
-              //   aria-orientation="horizontal"
+              aria-valuemin="0"
+              aria-valuemax="1000000"
+              aria-valuenow="600000"
+              aria-orientation="horizontal"
             >
               <div
                 className="rangeslider__fill"
